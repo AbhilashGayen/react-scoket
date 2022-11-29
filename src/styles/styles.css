@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    background-color: #d5d9dc;
+    text-align: center;
+
+}
+
+.header-title {
+    height: 50px;
+    padding: 5px 10px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.typeahead {
+    height: 50px;
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 4px solid black;
+}
+
+.tt-dropdown-menu {
+    z-index: 10;
+    position: absolute;
+    width: 400px;
+    margin-top: 50px;
+
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.tt-suggestion {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tt-suggestion:hover {
+    background-color: aliceblue;
+}
+
+.pull-right {
+    float: right;
+    text-align: right;
+}
+
+/* .tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+} */
+
+.bookmark-list {
+    width: 90vw;
+}
+
+.bookmark-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.icon-button {
+    cursor: pointer;
+}

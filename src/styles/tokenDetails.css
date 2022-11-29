@@ -1,0 +1,72 @@
+.token-card {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 15vw 15vw;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.token-card-section {
+    padding: 10px 20px;
+}
+
+.full-column {
+    grid-column: 1 / 3;
+}
+
+.half-column_A {
+    grid-column: 1;
+}
+
+.half-column_B {
+    grid-column: 2;
+}
+
+.token-card-section h4 {
+    font-size: 12px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.token-card-section_name {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.token-card-section_price {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.token-card-section_symbol,
+.token-card-section_percentage {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    padding: 0 10px;
+}
+
+.bid-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.bid-quantity,
+.bid-price {
+    width: 25%;
+    font-size: 16px;
+}
+
+.bid-quantity label,
+.bid-price label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+}
